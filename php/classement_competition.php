@@ -1,62 +1,56 @@
-<!DOCTYPE html>
-<html lang="en">
-<?php include 'head.php'; ?>
+<head>
+    <title>Classement</title>
+</head>
+<main>
+    <section>
+        <h2 class="titre">Classement de la coupe</h2>
+        <?php include 'tableau_classement.php'; ?>
 
-<body>
-    <?php include 'header.php'; ?>
+        <div class="match">
+            <h3 class="chapeau">Résultats de la semaine</h3>
+            <ul>
+                <li>FC-FC</li>
+                <li>FC-FC</li>
+                <li>FC-FC</li>
+            </ul>
+        </div>
 
-    <main>
-        <section>
-            <h2 class="titre">Classement de la coupe</h2>
-            <?php include 'tableau_classement.php'; ?>
+        <div class="fait">
+            <h3 class="chapeau">Faits marquants</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Vel sapiente velit tempore, maxime recusandae ipsa, ipsam fugiat,
+                in assumenda delectus minus! Nisi commodi illo voluptates dolorum, quae alias ex quis.
+            </p>
+        </div>
 
-            <div class="match">
-                <h3 class="chapeau">Résultats de la semaine</h3>
-                <ul>
-                    <li>FC-FC</li>
-                    <li>FC-FC</li>
-                    <li>FC-FC</li>
-                </ul>
-            </div>
+        <div class="cta">
+            <a href="calendrier.html"><button class="bouton boutonClassement">Voir le calendrier</button></a>
+        </div>
+    </section>
 
-            <div class="fait">
-                <h3 class="chapeau">Faits marquants</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Vel sapiente velit tempore, maxime recusandae ipsa, ipsam fugiat,
-                    in assumenda delectus minus! Nisi commodi illo voluptates dolorum, quae alias ex quis.
-                </p>
-            </div>
+    <section>
+        <h2 class="titre">Classement de la coupe</h2>
+        <?php include 'tableau_classement.php'; ?>
 
-            <div class="cta">
-                <a href="calendrier.html"><button class="bouton boutonClassement">Voir le calendrier</button></a>
-            </div>
-        </section>
-        
-        <section>
-            <h2 class="titre">Classement de la coupe</h2>
-            <?php include 'tableau_classement.php'; ?>
+        <div class="match">
+            <h3 class="chapeau">Résultats de la semaine</h3>
+            <ul>
+                <li>FC-FC</li>
+                <li>FC-FC</li>
+                <li>FC-FC</li>
+            </ul>
+        </div>
 
-            <div class="match">
-                <h3 class="chapeau">Résultats de la semaine</h3>
-                <ul>
-                    <li>FC-FC</li>
-                    <li>FC-FC</li>
-                    <li>FC-FC</li>
-                </ul>
-            </div>
+        <div class="fait">
+            <h3 class="chapeau">Faits marquants</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Vel sapiente velit tempore, maxime recusandae ipsa, ipsam fugiat,
+                in assumenda delectus minus! Nisi commodi illo voluptates dolorum, quae alias ex quis.
+            </p>
+        </div>
 
-            <div class="fait">
-                <h3 class="chapeau">Faits marquants</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Vel sapiente velit tempore, maxime recusandae ipsa, ipsam fugiat,
-                    in assumenda delectus minus! Nisi commodi illo voluptates dolorum, quae alias ex quis.
-                </p>
-            </div>
-
-            <div class="cta">
-                <a href="calendrier.html"><button class="bouton boutonClassement">Voir le calendrier</button></a>
-            </div>
-        </section>
-    </main>
-    <?php include 'footer.php'; ?>
-</body>
+        <div class="cta">
+            <a href="calendrier.html"><button class="bouton boutonClassement">Voir le calendrier</button></a>
+        </div>
+    </section>
+</main>
