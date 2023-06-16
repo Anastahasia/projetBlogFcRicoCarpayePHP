@@ -1,6 +1,4 @@
-<head>
-    <title>Calendrier</title>
-</head>
+<title>Calendrier</title>
 <main id="calendrier">
     <div class="partPrincipal">
         <h1 class="soustitre">Le calendrier</h1>

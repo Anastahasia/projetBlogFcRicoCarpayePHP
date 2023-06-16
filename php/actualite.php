@@ -1,6 +1,4 @@
-<head>
-    <title>Actualités</title>
-</head>
+<title>Actualités</title>
 <main id="actu">
     <section class="princArticle">
 

@@ -1,6 +1,5 @@
-<head>
-  <title>Article</title>
-</head>
+<title>Article</title>
+
 <main id="article">
   <!-- Partie 1 avec l'article -->
   <section class="partOne">

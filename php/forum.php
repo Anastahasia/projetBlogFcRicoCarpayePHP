@@ -1,6 +1,4 @@
-<head>
-    <title>Forum</title>
-</head>
+<title>Forum</title>
 <main id="forum">
 
     <section>

@@ -1,6 +1,4 @@
-<head>
-    <title>Classement</title>
-</head>
+<title>Classement</title>
 <main>
     <section>
         <h2 class="titre">Classement de la coupe</h2>

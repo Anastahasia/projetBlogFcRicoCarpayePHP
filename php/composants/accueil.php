@@ -1,6 +1,5 @@
-<head>
-    <title>Accueil</title>
-</head>
+<title>Accueil</title>
+
 <main id="accueil">
     <!-- partie premier article et la case événement de droite -->
     <section class="partOne">

@@ -1,6 +1,4 @@
-<head>
-    <title>contact</title>
-</head>
+<title>contact</title>
 <main id="contact">
     <section class="partContact">
         <h1 class="intertitre">Nous contacter</h1>
