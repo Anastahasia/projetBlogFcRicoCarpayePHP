@@ -17,7 +17,7 @@
 </div> -->
 
 <?php
-include 'composants/config.php';
+require_once 'composants/config.php';
 try{
   $connect = new PDO ("mysql:host=$serveur;dbname=$base_de_donnees",$utilisateur,$mot_de_passe);    
   $connect->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
