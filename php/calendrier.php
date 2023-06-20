@@ -1,7 +1,7 @@
 <title>Calendrier</title>
 <main id="calendrier">
     <div class="partPrincipal">
-        <h1 class="soustitre">Le calendrier</h1>
+        <h1 class="titre">Le calendrier</h1>
         <h3 class="chapeau">Venez nous voir jouer !</h3>
         <div class="partTwo">
             <div class="partEvent">

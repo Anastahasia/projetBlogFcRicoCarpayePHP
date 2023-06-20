@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+    
 <?php include 'head.php'; ?>
 
 <body>
@@ -23,7 +24,7 @@
                     include ('calendrier.php');
                     break;
                     case 'classement':
-                        include ('calendrier.php');
+                        include ('classement_competition.php');
                         break;
                     case 'article':
                         include ('article.php');

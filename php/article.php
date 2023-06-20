@@ -2,6 +2,50 @@
 
 <main id="article">
   <!-- Partie 1 avec l'article -->
+<?php
+include 'composants/config.php';
+try{
+  $connect = new PDO ("mysql:host=$serveur;dbname=$base_de_donnees",$utilisateur,$mot_de_passe);    
+  $connect->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+} catch (PDOException $e) {
+    // Gestion des erreurs de connexion
+    die("Erreur de connexion à la base de données : " . $e->getMessage());
+}
+
+$table_article = $connect -> prepare('SELECT * FROM article');
+$table_article->execute();
+$articles = $table_article-> fetchAll(PDO::FETCH_ASSOC);
+
+foreach ($articles as $article){
+  echo 
+  '<section class="partOne">
+    <h2 class="titre">' . $article['titre'] . '</h2>
+    <p class="chapeau charticle">' . $article['resume'] . '</p>
+    <div class="blocimg">
+      <hr>
+      <img src="' . $article['image'] . '" class="princimg" alt="image">
+      <h6 class="legende">' . $article['date'] . '</h6>
+    </div>
+
+  <h3 class="intertitre">' . $article['intertitre1'] . '</h3>
+  <p class="textearticle">' . $article['paragraphe1'] . '
+ 
+  </p>
+
+  <h3 class="intertitre">Intertitre</h3>
+  <p class="textearticle">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Velit fugit fuga minus ipsum. Unde fuga,
+    voluptates mollitia ab eveniet velit enim ratione,
+    fugiat sapiente libero,
+    ex nobis excepturi non obcaecati?
+  </p>
+  <div class="cta">
+    <a href="actualité.html"><button class="bouton">Voir toute les actus</button></a>
+  </div>
+</section>';
+}
+  ?>
   <section class="partOne">
     <h2 class="titre">Titre</h2>
     <p class="chapeau charticle">
@@ -49,6 +93,7 @@
       <a href="actualité.html"><button class="bouton">Voir toute l'actus</button></a>
     </div>
   </section>
+
 
   <!-- Partie 2 avec le carrousel -->
 

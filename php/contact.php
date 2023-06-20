@@ -1,7 +1,7 @@
 <title>contact</title>
 <main id="contact">
     <section class="partContact">
-        <h1 class="intertitre">Nous contacter</h1>
+        <h1 class="titre">Nous contacter</h1>
         <h3 class="chapeau">Pour toute question n'hesitez pas a nous contacter</h3>
     </section>
     <section class="partInfo">

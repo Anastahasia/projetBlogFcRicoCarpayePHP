@@ -49,7 +49,5 @@
     <!-- deuxième partie  -->
     <section class="troisArticles">
         <?php include 'sidearticle.php'; ?>
-        <?php include 'sidearticle.php'; ?>
-        <?php include 'sidearticle.php'; ?>
     </section>
 </main>
